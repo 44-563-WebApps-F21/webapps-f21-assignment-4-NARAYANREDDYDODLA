@@ -29,6 +29,9 @@
 .ALLONBY {
     color: burlywood;
 }
+.HESTER {
+    color: rgb(129, 117, 139);
+}
 table { border: dashed 5px brown;
     border-collapse: separate;}
     table.collapsing {
@@ -38,3 +41,15 @@ table { border: dashed 5px brown;
     text-align: left;}
     tr:nth-child(even)
     {background-color: orange;}
+
+    h6.HESTER:hover{
+        text-shadow: rgb(165, 179, 192);
+        border-style: outset;
+        filter:blur(2px);
+    }
+    
+    h6.GERALD:hover{
+        text-shadow: rgb(184, 202, 219);
+        border-style: outset;
+        filter:blur(2px);
+    }
